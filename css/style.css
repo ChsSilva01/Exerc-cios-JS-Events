@@ -1,0 +1,102 @@
+:root{
+    --Texto: ;
+}
+
+.Wraaper{
+    background-color: #acacac;
+}
+.Header{
+    top: 0%;
+    left: 0%;
+    height: 12vh;
+    width: 100%;
+    position: absolute;
+    
+}
+.title{
+    font-size: 45px;
+    background: -webkit-linear-gradient(#0d9900, #51d637);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 1%;
+    margin-left: 35%;
+}
+
+.Produtos{
+    height: 400px;
+    width: 400px;
+    top: 30%;
+    left: 10%;
+    position: absolute;
+    border: 8px solid #000000;
+}
+.Prateleira{
+    top: 0%;
+    left: 0%;
+    border-bottom: 5px solid #000000;
+    position: relative;
+}
+
+#pera{
+    height: 70px;
+    width: 70px;
+    top: 10px;
+    left: 0px;
+    position: absolute;
+    border-radius: 50%;
+}
+#maça{
+    height: 70px;
+    width: 70px;
+    top: 10px;
+    left: 40%;
+    position: absolute;
+    border-radius: 50%;
+}
+#banana{
+    height: 70px;
+    width: 70px;
+    top: 10px;
+    left: 80%;
+    position: absolute;
+}
+.Carrinho{
+    height: 470px;
+    width: 360px;
+    bottom: 1%;
+    right: 10%;
+    position: absolute;
+    border: 8px solid black
+}
+#texto{
+    font-size: 30px;
+    padding-left: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+#botao{
+    width: 60px;
+    height: 60px;
+    top: 200px;
+    right: 12%;
+    position: absolute;
+    border-radius: 50%;
+    background-image: url(botão.png);
+    background-color: #acacac;  
+}
+#border{
+    border-collapse: collapse;
+}
+.ver{
+    width: 50px;
+    height: 100px;
+    background-color: #000000;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.bran{
+    width: 50px;
+    height: 100px;
+    background-color: #ffff;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}

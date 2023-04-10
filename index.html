@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/Mercado.js"></script> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercadão do Carlão</title>
+</head>
+<body class="Wraaper">
+    <div class="wraaper">
+        <div class="Header">
+            <p class="title">Mercadão do Carlão</p>
+            <table class="Header" id="border">
+                <tr>
+                    <td class="ver"></td>
+                    <td class="bran"></td>
+                    <td class="ver"></td>
+                    <td class="bran"></td>
+                    <td class="ver"></td>
+                    <td class="bran"></td>
+                    <td class="ver"></td>
+                    <td class="bran"></td>
+                    <td class="ver"></td>
+                    <td class="bran"></td>
+                    
+                </tr>
+            </table>
+        </div>
+
+
+        <div class="Produtos">
+            <div class="Prateleira" style="height: 20%;width: 100%;">
+                <div onmouseover="minhaFuncaoPera()" onmouseout="PeraTWOFuncao()" onclick="PeraTREEFuncao()">
+                    <img src="img/pera.png" id="pera">
+                </div>
+
+                <div onmouseover="minhaFuncaoMaca()" onmouseout="MacaTWOFuncao()" onclick="MacaTREEFuncao()">
+                    <img src="img/maça.png" id="maça">
+                </div>
+            </div>    
+            <div onmouseover="minhaFuncaoBanana()" onmouseout="BananaTWOFuncao()" onclick="BananaTREEFuncao()">
+                <img src="img/Banana.png" id="banana">
+            </div>
+            <div class="Prateleira" style="height: 20%;width: 100%;"></div>
+            <div class="Prateleira" style="height: 20%;width: 100%;"></div>
+            <div class="Prateleira" style="height: 20%;width: 100%;"></div>
+
+        </div>
+
+
+        <div class="Carrinho" id="texto">     
+            
+        </div>
+        <div id="botao" onclick="Remover()" onmouseout="botaoOne()" onmouseover="botao()"></div>
+    </div>
+</body>
+</html>
