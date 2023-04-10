@@ -23,8 +23,8 @@ function minhaFuncaoBanana(){
 function botao(){
     const el = document.querySelector('#botao');
     el.style.cssText =
-    'height: 64px;' +
-    'width: 64px;';
+    'height: 32px;' +
+    'width: 32px;';
 }
 // FIM
 
@@ -50,8 +50,8 @@ function BananaTWOFuncao(){
 function botaoOne(){
     const el = document.querySelector('#botao');
     el.style.cssText =
-    'height: 60px;' +
-    'width: 60px;';
+    'height: 30px;' +
+    'width: 30px;';
 }
 // FIM
 

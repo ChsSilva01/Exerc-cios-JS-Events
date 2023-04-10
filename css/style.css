@@ -13,14 +13,6 @@
     position: absolute;
     
 }
-.title{
-    font-size: 45px;
-    background: -webkit-linear-gradient(#0d9900, #51d637);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-top: 1%;
-    margin-left: 35%;
-}
 
 .Produtos{
     height: 400px;
@@ -66,21 +58,24 @@
     bottom: 1%;
     right: 10%;
     position: absolute;
-    border: 8px solid black
+    border: 8px solid black;
+    justify-content: flex-start;
 }
 #texto{
+    width: 100px;
+    margin-top: 0px;
     font-size: 30px;
     padding-left: 30px;
     font-family: 'Dancing Script', cursive;
+    position: relative;
 }
 #botao{
-    width: 60px;
-    height: 60px;
-    top: 200px;
-    right: 12%;
-    position: absolute;
+    left: 170px;
+    width: 30px;
+    height: 30px;
+    position: relative;
     border-radius: 50%;
-    background-image: url(botão.png);
+    background-image: url(../img/botão.png);
     background-color: #acacac;  
 }
 #border{
